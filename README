@@ -4,3 +4,6 @@ Requerimentos:
 Comandos:
 - conda create -n smaquarium --python=3.7
 - conda install --yes --file requirements.txt
+
+Para iniciar o projeto use:
+- python manage.py runserver
