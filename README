@@ -1,0 +1,6 @@
+Esse projeto foi feito em python 3.7.7 usando virtual env do anaconda.
+Requerimentos:
+- Anaconda
+Comandos:
+- conda create -n smaquarium --python=3.7
+- conda install --yes --file requirgit ements.txt
