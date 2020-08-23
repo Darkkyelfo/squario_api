@@ -17,3 +17,7 @@ class NumericSensor(models.Model):
 
     class Meta:
         db_table = "numeric_sensors"
+
+    @staticmethod
+    def get_serialized_fields():
+        return ["id", "value", "type", "created_at"]
