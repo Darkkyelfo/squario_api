@@ -20,4 +20,4 @@ class NumericSensor(models.Model):
 
     @staticmethod
     def get_serialized_fields():
-        return ["id", "value", "type", "created_at"]
+        return ["id", "value", "type", "aquarium", "created_at"]
